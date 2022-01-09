@@ -474,6 +474,7 @@ main{
     font-weight: 800;
     line-height: 1.3;
     margin-bottom: 30px;
+    margin-left: 40px;
 }
 
 .saiba__mais a{
@@ -485,6 +486,7 @@ main{
     border: none;
     border-radius: 20px;
     transition: 0.2s;
+    margin-left: 40px;
 }
 
 
@@ -496,10 +498,13 @@ main{
     background-color: #b17f02;
     border: none;
     border-radius: 20px;
+    
 }
 
 .imagem_bonus img{
     width: 480px;
+    width: 380px;
+    margin-left: 50px;
 }
 
 footer{
