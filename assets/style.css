@@ -1,0 +1,522 @@
+
+
+
+body{
+    font-family: 'Montserrat';
+    background-color: #4A2597;
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: var(--texto-grande);
+    color: white;
+    font-weight: 800;
+}
+
+header{
+    position: relative;
+}
+
+.vetor__top{
+    margin: 0px auto;
+    z-index: -1;
+    position: absolute;
+    width: 100%;
+    max-width: 1980px;
+}
+
+.container{
+    margin: 0 auto;
+    position: relative;
+    max-width: 1980px;
+}
+
+.container img{
+    margin-top: 5px;
+}
+
+.container h1{
+    position: absolute;
+    top: 40px;
+    display: inline;
+    left: 5em;
+    color: white;
+    font-weight: 900;
+    font-size: var(--texto-meio-medio);
+    line-height: 48.76px;
+    text-decoration: none;
+}
+
+.container h1:hover {
+    cursor: pointer;
+}
+
+nav{
+    position: absolute;
+    right: 1em;
+    top: 53px;
+    
+}
+
+nav li{
+    display: inline;
+    margin-right: 30px;
+}
+
+nav li a{
+    text-decoration: none;
+    font-family: var(--texto-pequeno);
+    color: white;
+    font-weight: 800;
+    line-height: 29.26px;
+    transition: 0.2s;
+}
+
+nav li a:hover{
+    color: rgb(167, 167, 167);
+}
+
+hr{
+    z-index: 1;
+    border-top: 3px solid #C6993C;
+}
+
+main{
+    position: relative;
+}
+
+.div__main-1{
+    position: relative;
+    height: 840px;
+}
+
+.div-quiz{
+    width: 100%;
+    position: relative;
+    display:inline-flex;
+    margin: 5em 0 auto;
+    max-width: 1980px;
+}
+
+.div-quiz .grafico{
+    margin: 0 6em;
+    width: 50%;
+}
+
+.lista-vamos-la{
+    position: relative;
+    width: 50%;
+    margin-right: 3em;
+    margin-top: 3em;
+}
+
+.lista-vamos-la h2{
+    margin-bottom: 0.5em;
+}
+
+.lista-vamos-la li{
+    text-align: center;
+}
+
+.lista-vamos-la li p{
+    font-size: var(--texto-meio-medio);
+    font-weight: 800;
+    color: white;
+    line-height: 1.3;
+    padding: 0 0;
+    margin-bottom: 2em;
+}
+
+.lista-vamos-la a{
+    font-size: var(--texto-meio-medio);
+    color: white;
+    font-weight: 800;
+    text-decoration: none;
+    padding: 5px 15px;
+    background-color: #D3A631;
+    border: none;
+    border-radius: 20px;
+    transition: 0.2s;
+}
+
+.lista-vamos-la a:hover{
+    color: white;
+    font-weight: 800;
+    text-decoration: none;
+    padding: 5px 15px;
+    background-color: #b17f02;
+    border: none;
+    border-radius: 20px;
+}
+
+.vetor__bottom{
+    margin: 0px auto;
+    z-index: -1;
+    position: absolute;
+    bottom: -160px;
+    width: 100%;
+    max-width: 1980px;
+}
+
+.div__main-2{
+    height: 2081px;
+}
+
+.vetor__top2{
+    position: absolute;
+    width: 100%;
+    max-width: 1980px;
+    top: -5px;
+}
+
+.texto__trilhas{
+    width: 25rem;
+    text-align: center;
+    margin-left: 13rem;
+}
+
+.texto__trilhas h2{
+    padding-top: 1rem;
+}
+
+.texto__trilhas p{
+    font-size: var(--texto-px);
+    font-weight: 800;
+    color: white;
+    line-height: 1.3;
+    padding: 0 0;
+    margin: 1em 0;
+}
+
+.texto__trilhas img{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.retangle{
+    width: 100%;
+    max-width: 1980px;
+    position: absolute;
+    z-index: -1;
+    top: -210px;
+}
+
+.div__mercado{
+    text-align: center;
+    position:relative;
+    display: flex;
+    margin: 0 auto;
+    z-index: -2;
+    background-color: #ffffffb3;
+    height: 760px;
+}
+
+.div__blocos{
+    width: 100%;
+    margin-top: 7em;
+}
+
+.ul__mercado{
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.status{
+    margin-bottom: 8px;
+    margin-top: -10px;
+    text-align: end;
+    font-size: 14px;
+}
+
+.ncomecou{
+    margin-bottom: 35px;
+}
+
+.ul__mercado li{
+    display: inline-block;
+    text-align: center;
+    width: 20.5%;
+    height: 482px;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 18px;
+    background-color: #B74F67;
+}
+
+#bloco-verde{
+    background-color: #3C9C8C;
+}
+
+.ul__mercado h3{
+    font-size: var(--texto-pequeno);
+    color: white;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.ul__mercado p{
+    font-size: var(--texto-pp);
+    color: white;
+    font-weight: 800;
+    line-height: 21.94px;
+}
+
+.obs{
+    text-align: end;
+    margin-right: 60px;
+    font-size: var(--texto-pp);
+    font-weight: 800;
+}
+
+.hr-mercado{
+    width: 92%;
+}
+
+.div__moedas{
+    width: 100%;
+    height: 1040px;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding-top: 60px;
+    position: relative;
+}
+
+.titulo__moedas{
+    text-align: center;
+    position: relative;
+    font-weight: 900;
+}
+
+.conteudos{
+    width: 100%;
+    display: flex;
+    text-align: center;
+    position: relative;
+}
+
+.conteudo-1{
+    display: block;
+    width: 50%;
+    padding: 2rem 0;
+}
+
+.conteudo-1 img{
+    padding: 0 10rem;
+}
+
+.conteudo-2{
+    width: 50%;
+}
+
+.ul-conteudo li{
+    background-color: #4A2597;
+    display: inline-block;
+    width: 469px;
+    height: 648px;
+    padding: 35px 45px 0 45px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 234.5px 112px 234.5px 127px;
+    margin-top: 5rem;
+}
+
+.ul-conteudo li p{
+    color: white;
+    font-size: var(--texto-mx);
+    font-weight: 800;
+    margin: 3rem auto 2rem auto;
+}
+
+.div__main-3{
+    margin-top: 6px;
+}
+
+.div__nivel{
+    position: relative;
+    width: 100%;
+    height: 740px;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding-top: 60px;
+}
+
+.titulo__nivel{
+    text-align: center;
+    position: relative;
+    font-weight: 900;
+}
+
+.conteudos__nivel{
+    position: relative;
+    width: 100%;
+    display: inline-flex;
+    align-items: flex-end;
+    z-index: 1;
+}
+
+.ul-conservador{
+    width: 33%;
+    height: 325px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    margin: 0 7%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 29px;
+    background-color: #A7A950;
+}
+
+.ul-moderado{
+    width: 33%;
+    height: 455px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    margin: 0 7%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 29px;
+    background-color: #4359A7;
+}
+
+.ul-agressivo{
+    width: 33%;
+    height: 585px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    margin: 0 7%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 29px;
+    background-color: #216739;
+}
+
+
+.conteudos__nivel ul li img{
+    height: 128px;
+    width: 133px;
+    margin: 30px 0;
+    
+}
+
+.conteudos__nivel ul li p{
+    color: white;
+    font-weight: 800;
+    line-height: 1.3;
+}
+
+.conteudos__nivel ul h3{
+    color: white;
+    font-size: var(--texto-px);
+    font-weight: 800;
+}
+
+.ul-conservador h3{
+ margin-top: 70px;
+}
+
+.ul-moderado h3{
+    margin-top: 200px;
+}
+
+.ul-agressivo h3{
+    margin-top: 330px;
+}
+
+.vetor_nivel{
+    margin: 0px auto;
+    z-index: 0;
+    position: absolute;
+    bottom: -110px;
+    width: 100%;
+    max-width: 1980px;
+}
+
+.div__main-4{
+    height: 740px;
+}
+
+.div__bonus{
+    position: relative;
+    width: 100%;
+    height: 740px;
+    padding-top: 60px;
+}
+
+.titulo__bonus{
+    margin-top: 60px;
+    text-align: center;
+    position: relative;
+    font-weight: 900;
+}
+
+.conteudos__bonus{
+    display: inline-flex;
+    width: 100%;
+    text-align: center;
+}
+
+.saiba__mais{
+    width: 50%;
+    margin-top: 10em;
+}
+
+.saiba__mais p{
+    color: white;
+    font-size: var(--texto-px);
+    font-weight: 800;
+    line-height: 1.3;
+    margin-bottom: 30px;
+}
+
+.saiba__mais a{
+    color: white;
+    font-weight: 800;
+    text-decoration: none;
+    padding: 5px 15px;
+    background-color: #D3A631;
+    border: none;
+    border-radius: 20px;
+    transition: 0.2s;
+}
+
+
+.saiba__mais a:hover{
+    color: white;
+    font-weight: 800;
+    text-decoration: none;
+    padding: 5px 15px;
+    background-color: #b17f02;
+    border: none;
+    border-radius: 20px;
+}
+
+.imagem_bonus img{
+    width: 480px;
+}
+
+footer{
+    color: white;
+    margin-top: 5rem;
+    height: 156px;
+    background-color: #C6993C;
+    padding-top: 10px;
+}
+
+footer li{
+    margin: 20px;
+}
+
+footer .sp_titulo{
+    font-size: var(--texto-px);
+    font-weight: 800;
+}
+
+
