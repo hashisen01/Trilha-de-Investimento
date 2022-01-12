@@ -1,0 +1,160 @@
+@media (max-width:767px){
+    *{
+        margin: 0px;
+    }
+
+    .logo__titulo{
+        padding: 25px 10px;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .vetor__top{
+        position: absolute;
+    }
+
+    .logo__titulo a img, .retangle, .vetor_nivel{
+        display: none;
+    }
+
+    .logo__titulo h1 a{
+        align-items: center;
+        font-size: 26px;
+    }
+
+    .container{
+        width: 100%;
+    }
+
+    main .container .div-quiz{
+        height: 620px;
+        width: 90%;
+        display: table;
+        text-align: center;
+        margin-top: 40px;
+    }
+
+    .div-quiz .grafico, 
+    .texto__trilhas img {
+        width: 80%;
+        margin: 30px auto;
+        display: table-footer-group;
+    }
+
+    .div-quiz .lista-vamos-la{
+        display: table-header-group;
+    }
+
+    .div-quiz .lista-vamos-la li{
+        width: 100%;
+    }
+
+    .div-quiz .lista-vamos-la h2, 
+    .texto__trilhas h2{
+        font-size: 36px;
+    }
+
+    .div-quiz .lista-vamos-la p, 
+    .texto__trilhas p{
+        width: 100%;
+        font-size: 16px;
+    }
+
+    .div-quiz .lista-vamos-la .li-vamos-la{
+        display: block;
+        width: 100%;
+        position: absolute;
+        margin-top: 340px;
+    }
+
+    .div-quiz .lista-vamos-la a{
+        font-size: 24px;
+    }
+
+    .div__main-txt{
+        display: block;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .div__main-txt .texto__trilhas, 
+    .div__mercado,
+    .ul__mercado, 
+    .conteudos, 
+    .conteudo-1, 
+    .conteudos__nivel, .div__bonus, 
+    .conteudos__bonus{
+        display: block;
+        width: 100%;
+        padding: initial;
+    }
+
+    .div__mercado, .conteudo-1 img{
+        padding: 10px 0;
+    }
+
+    .div__blocos{
+        margin: 0 auto;
+    }
+
+    .div__blocos li{
+        margin: 20px auto;
+    }
+
+    .ul-conteudo{
+        padding: 10px;
+    }
+
+    .ul-conteudo li{
+        background: linear-gradient(180deg, #260253 0%, #7F49B6 94.78%);
+        width: 80%;
+        padding: initial;
+        padding: 15px 0;
+        border-radius: 120px 70px 120px 70px;
+        margin: 0 auto;
+    }
+
+    .ul-conteudo li .moedas{
+        font-size: 16px;
+        margin: 30px auto;     
+    }
+
+    .ul-conteudo li img{
+        width: 161px;
+    }
+
+    .div__moedas .obs{
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+
+    .div__main-3 {
+        margin: initial;
+    }
+
+    .div__nivel{
+        display: block;
+        width: 100%;
+    }
+
+    .conteudos__nivel{
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .ul-conservador, .ul-moderado, .ul-agressivo{
+        margin-top: 20px;
+        margin-bottom: 80px;
+    }
+
+    .saiba__mais{
+        margin: 20px auto;
+        width: 90%;
+    }
+
+    hr{
+        margin: 0 auto;
+        text-align: center;
+    }
+
+}

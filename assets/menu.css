@@ -1,0 +1,108 @@
+
+#btn-menu{
+    display: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 15px;
+}
+
+/*VISIBILIDADE E EFEITOS DO DOTÃO MENU MOBILE*/
+@media (max-width: 1080px){
+    #nav{
+        position: absolute;
+        right: 0;
+    }
+    #btn-menu{
+        position: absolute;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        margin: 15px 10px;
+        right: 0;
+        -webkit-transition-duration: 0.5s;
+        transition-duration: 0.5s;
+    }
+
+    .linhas-menu{
+        background: white;
+        width: 40px;
+        height: 6px;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(6, 0, 61, 0.4);
+        transition: all 0.4s ease-in-out;
+    }
+
+    .linhas-menu::before,.linhas-menu::after {
+        position: absolute;
+        content: '';
+        background: #fff;
+        width: 40px;
+        height: 6px;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(6, 0, 61, 0.4);
+        transition: all 0.4s ease-in-out;
+    }
+
+    .linhas-menu::before {
+        transform: translateY(-16px);
+    }
+
+    .linhas-menu::after {
+        transform: translateY(16px);
+    }
+
+    #menu{
+        width: 360px;
+        height: 571px;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        background-color: white;
+        visibility: hidden;
+        overflow-x: hidden;
+    }
+
+    #menu li{
+        margin-left: 40px;
+    }
+
+    #menu li a{
+        overflow-x: hidden;
+        color: black;
+        font-size: var(--texto-pxx);
+    }
+
+    #nav.active #btn-menu{
+        margin-right: 80%;
+    }
+
+    #nav.active #menu{
+        display: flex;
+        flex-direction: column;
+        visibility: visible;
+        overflow-x: hidden;
+        z-index: 1;
+    }
+
+    #nav.active #menu li a{
+        overflow: hidden;
+        transition: 0s;
+    }
+
+    #nav.active #btn-menu .linhas-menu {
+        z-index: 10000;
+        box-shadow: none;
+        background: transparent;
+        transform: translateX(-50px);
+    }
+    #nav.active #btn-menu .linhas-menu::before {
+        box-shadow: none;
+        background: black;
+        transform: rotate(45deg) translate(35px, -35px);
+    }
+    #nav.active #btn-menu .linhas-menu::after {
+        box-shadow: none;
+        background: black;
+        transform: rotate(-45deg) translate(35px, 35px);
+    }
+}
