@@ -13,7 +13,7 @@ h2{
 
 
 .vetor__top{
-    margin: 0px auto;
+    top: -4px;
     z-index: -1;
     position: absolute;
     width: 100%;
@@ -39,7 +39,6 @@ h2{
 }
 
 .container h1 a{
-    top: 40px;
     color: white;
     font-weight: 900;
     font-size: var(--texto-meio-medio);
@@ -68,7 +67,6 @@ nav li a{
     font-family: var(--texto-pequeno);
     color: white;
     font-weight: 800;
-    transition: 0.2s;
 }
 
 nav li a:hover{
@@ -133,7 +131,6 @@ hr{
 .vetor__bottom{
     margin: 0px auto;
     z-index: -1;
-    margin-top: -50px;
 }
 
 .vetor__top2{
