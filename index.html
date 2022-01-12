@@ -9,24 +9,27 @@
     <link rel="stylesheet" href="assets/reset.css">
     <link rel="stylesheet" href="assets/fonts.css">
     <link rel="stylesheet" href="assets/style.css">
-    <link rel="stylesheet" href="assets/normalize.css">
+    <link rel="stylesheet" href="assets/menu.css">
     <link rel="stylesheet" href="assets/mobile.css">
 </head>
 <body>
     <header>
         <div class="container">
             <div class="cabecalho">
+                <img class="vetor__top container" src="./assets/img/Vector 12.svg" alt="">
                 <div class="logo__titulo">
-                    <img class="vetor__top container" src="./assets/img/Vector 12.svg" alt="">
                     <a href="https://www.inova.ma.gov.br"><img src="./assets/img/logo.svg" alt="Logo do programa Inova Maranhão, sendo Inova escrito em fonte maior na cor amarelo e Maranhão em fonte menor na cor branca."></a>
                     <h1><a href="index.html">Trilha de Investimento</a></h1>
                 </div>
-                <nav>
-                    <ul>
-                        <li><a href="#inicio">Início</a></li>
-                        <li><a href="#moedas">Moedas</a></li>
-                        <li><a href="#nivel">Nível</a></li>
-                        <li><a href="#menudoaluno">Menu do Aluno</a></li>
+                <nav id="nav">
+                    <div id="btn-menu">
+                        <div class="linhas-menu"></div>
+                    </div>
+                    <ul id="menu">
+                        <li><a href="#inicio" id="inicio">Início</a></li>
+                        <li><a href="#moedas" id="moedas">Moedas</a></li>
+                        <li><a href="#nivel" id="nivel">Nível</a></li>
+                        <li><a href="#menudoaluno" id="menu_aluno">Menu do Aluno</a></li>
                     </ul>
                 </nav>
             </div>
@@ -40,7 +43,7 @@
                 <ul class="lista-vamos-la">
                     <li><h2>Quiz Financeiro</h2></li>
                     <li><p>Aqui, trazemos uma oportunidade de você, que é iniciante no mercado financeiro, conhecer um pouco melhor desse mundo, de uma maneira divertida, prática e fácil.</p></li>
-                    <li><a class="vamos-la" href="#quiz.html">Vamos lá!</a></li>
+                    <li class="li-vamos-la"><a class="vamos-la" href="#quiz.html">Vamos lá!</a></li>
                 </ul>
             </div>
         </div>
@@ -172,5 +175,7 @@
             </ul>
         </div>
     </footer>
+
+    <script src="assets/menu.js"></script>
 </body>
 </html>
