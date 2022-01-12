@@ -179,6 +179,7 @@ hr{
     display: flex;
     margin: 0 auto;
     z-index: -2;
+    background-color: #ffffffb3;
 }
 
 .div__blocos{
@@ -247,6 +248,7 @@ hr{
 
 .div__moedas{
     width: 100%;
+    background-color: rgba(255, 255, 255, 0.7);
     padding-top: 60px;
 }
 
@@ -302,6 +304,7 @@ hr{
 .div__nivel{
     position: relative;
     padding-top: 60px;
+    background-color: rgba(255, 255, 255, 0.7);
 }
 
 .titulo__nivel{
