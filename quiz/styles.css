@@ -11,9 +11,7 @@ html, body{
 
 body{
     font-family: 'Montserrat', serif;
-    background: url("fundo.jpg");
-    overflow: hidden;
-    
+    background: url("fundo.jpg");   
 }
 
 main{
