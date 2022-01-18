@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #431F8F;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    max-width: 1440px;
+    position: relative;
+}
+
+.container{
+    position: relative;
+    display: flex;
+    width: 100%;
+}
+
+.vetor{
+    position: absolute;
+    width: 100%;
+}
+
+nav{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 5px 20px;
+}
+
+nav ul{
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+
+nav ul li{
+    list-style: none;
+    margin-right: 30px;
+}
+
+nav ul li h2{
+    font-size: 48px;
+}
+
+.voltar-inicio{
+    position: absolute;
+    font-size: 24px;
+    font-weight: 400;
+    color: white;
+    text-decoration: none;
+    background-color: #1D0A47;
+    right: 48px;
+    top: 40px;
+    padding: 15px 35px;
+    border: none;
+    border-radius: 50px;
+    vertical-align: middle;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.voltar-inicio:hover{
+    font-size: 26px;
+    right: 38px;
+    top: 37px;
+    background-color: #311372;
+    border: 2px solid white;
+    transition: .3s;
+}
+
+hr{
+    border: 3px solid #C6993C;
+}
+
+.nivel{
+    margin: 100px 1% 0 3%;
+    max-width: 48%;
+    width: 50%;
+    display: block;
+}
+
+.nivel-1{
+    height: 200px;
+    background: rgba(198, 153, 60);
+    text-align: center;
+    width: 100%;
+}
+
+.nivel-1 img{
+    margin-top: -49px;
+}
+
+.nivel-2{
+    width: 100%;
+    height: 190px;
+    background: rgba(236, 239, 242, 1);
+    align-items: center;
+    display: inline-flex;
+    justify-content: space-around;
+}
+
+.nivel-2 h3{
+    color: rgba(29, 10, 71, 1);
+    vertical-align: middle;
+    font-size: 64px;
+}
+
+.mercado{
+    width: 26%;
+    margin: 30px 0 30px 2%;
+}
+
+.ul__mercado li{
+    text-decoration: none;
+    list-style: none;
+    text-align: center;
+    line-height: 1.2;
+    width: 281px;
+    height: 490px;
+    vertical-align: top;
+    padding: 20px 20px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 18px;
+    background-color: #3C9C8C;
+}
+
+.status{
+    font-size: 14px;
+    text-align: end;
+}
+
+.ul__mercado li h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.mercado-descricao{
+    font-size: 18px;
+}
+
+.trilha{
+    width: 26%;
+    margin: 30px 2% 30px 0;
+    text-align: center;
+}
+
+.trilha div{
+    padding-top: 150px;
+
+}
+
+.trilha div h3{
+    margin: 10px;
+    font-size: 30px;
+}
+
+.trilha div p{
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.classificacao{
+    margin-top: 30px;
+    display: flex;
+    padding: 40px 20px;
+    background: rgba(196, 161, 108, 1);
+    width: 100%;
+}
+
+.conteudo{
+    display: flex;
+    width: 75%;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.conteudo ul{
+    width: 15%;
+}
+
+.conteudo h2{
+    font-size: 60px;
+    color: black;
+}
+
+.conteudo p{
+    font-size: 24px;
+    color: black;
+}
+
+.business-analytics{
+    width: 25%;
+}
+
+.img-business{
+    width: 336px;
+    height: 561px;
+    position: absolute;
+    top: -200px;
+}
