@@ -4,15 +4,11 @@
     padding: 0;
     box-sizing: border-box;
 }
-  
-html, body{
-    background: #431F8F;
-}
-
 
 body{
     font-family: 'Montserrat', serif;
     color: white;
+    background: #431F8F;
 }
 
 .vetor-1{
