@@ -66,12 +66,9 @@ nav ul li h2{
 }
 
 .voltar-inicio:hover{
-    font-size: 26px;
-    right: 38px;
-    top: 37px;
-    background-color: #311372;
-    border: 2px solid white;
-    transition: .3s;
+    transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
 }
 
 hr{
