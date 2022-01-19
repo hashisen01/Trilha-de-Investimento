@@ -64,11 +64,9 @@ main{
 }
 
 .btn-iniciar a:hover{
-    cursor: pointer;
-    font-size: 26px;
-    background: rgba(212, 167, 50, 1);
-    padding: 10px 25px;
-    left: 244px;
+    transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
 }
 
 .porfit{
