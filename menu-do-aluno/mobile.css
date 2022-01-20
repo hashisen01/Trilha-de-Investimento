@@ -1,0 +1,98 @@
+@media (max-width:767px){
+    *{
+        margin: 0px;
+    }
+
+    nav{
+    	margin: 5px 10px;
+    }
+
+    nav ul {
+    	display: block;
+	}
+
+    nav ul li img{
+    	width: 50px;
+    }
+
+    nav ul li h2 {
+    	margin-top: 10px;
+    	font-size: 30px;
+	}
+
+	.voltar-inicio{
+    	top: 10px;
+    	right: 1px;
+	}
+
+    .container {
+
+	    flex-wrap: wrap;
+	}
+
+	.mercado {
+    	width: 50%;
+	}	
+
+	.nivel {
+
+	    width: 44%;
+
+	}	
+
+    .nivel-1 img {
+    	width: 100px;
+    	margin-top: 50px;
+	}
+
+	.nivel-2 h3 {
+    	font-size: 20PX;
+	}
+
+	.ul__mercado li {
+		width: 100%;
+    	height: auto;
+	}
+
+	.trilha {
+	    width: 44%;
+	    margin-left: 10px;
+	    margin-top: -60vh;
+	}
+
+	.conteudo ul {
+	   	width: 50%;
+		margin-top: 30px;
+
+	}
+
+	.img-business {
+    	display: none;
+    }
+
+    .classificacao {
+    	width: 100%;
+	}
+
+	.conteudo {
+	    width: 100%;
+	    flex-wrap: wrap;
+	    align-items: center;
+	}
+
+	.conteudo img {
+    	width: 50px;
+	}
+
+	.conteudo h2 {
+    	font-size: 30px;
+	}
+
+	.conteudo p {
+    	font-size: 20px;
+    }
+
+	.business-analytics {
+		display: none;    
+	}
+}
