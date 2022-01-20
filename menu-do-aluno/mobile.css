@@ -59,6 +59,10 @@
 	    margin-left: 10px;
 	    margin-top: -100%;
 	}
+	
+	.trilha div {
+    		padding-top: 170%;
+	}
 
 	.conteudo ul {
 	   	width: 50%;
