@@ -264,10 +264,11 @@ input[type=radio]:checked ~ .option {
     }
 }
 
+
 @media(min-width : 350px) and (max-width : 700px){
    .game-quiz-container{
        width: 90%;
-       height: 80vh;
+       height: auto;
     }
     .game-details-container h1{
         font-size: 1rem;
@@ -275,6 +276,7 @@ input[type=radio]:checked ~ .option {
 
     .game-question-container{
         height: 8rem;
+        margin: 80px auto 20px auto;
     }
 
     .game-question-container h1{
@@ -283,6 +285,7 @@ input[type=radio]:checked ~ .option {
 
     .game-options-container span{
         width: 90%;
+        margin: 5px auto;
     }
     .modal-content-container{
         width: 90%;
@@ -291,6 +294,11 @@ input[type=radio]:checked ~ .option {
     .modal-content-container h1{
         font-size: 1.2rem;
     }
+
+    .next-button-container button{
+        margin-top: 50px;
+    }
+
 }
 
 
