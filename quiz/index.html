@@ -10,90 +10,92 @@
 
     
     <body onload="NextQuestion(0)">
-        <img class="vetor-1" src="../assets/img/Vector 14.svg" alt="">
-        <H2 style="background: #7944AF; text-align: center; padding: 10px; position: absolute; width: 100%; top: 40px;">QUIZ MERCADO FINANCEIRO -INOVA MARANHÃO</H2>
-        <main>
-          
-            <div class="modal-container" id="score-modal">
+        <div class="container-master">
+            <img class="vetor-1" src="../assets/img/Vector 14.svg" alt="">
+            <H2 style="background: #7944AF; text-align: center; padding: 10px; position: absolute; width: 100%; max-width: 1940px; top: 60px; z-index: 1;">QUIZ MERCADO FINANCEIRO -INOVA MARANHÃO</H2>
+            <main>
               
-                <div class="modal-content-container">
+                <div class="modal-container" id="score-modal">
                   
-                    <h1>Parabéns, Quiz Completado.</h1>
-                  
-                    <div class="grade-details">
-                        <p>Tentativas : 10</p>
-                        <p>Respostas erradas : <span id="wrong-answers"></span></p>
-                        <p>Respostas certas : <span id="right-answers"></span></p>
-                        <p>Grau : <span id="grade-percentage"></span>%</p>
-                        <p ><span id="remarks"></span></p>
-                    </div>
-                  
-                    <div class="modal-button-container">
-                        <button onclick="salvarSocore() ,closeScoreModal()">Continue</button>
-                    </div>
-                  
-                </div>
-            </div>
-   
-            <div class="game-quiz-container">
-                <!-- <H2>RESPONDA O QUIZ ABAIXO SOBRE MERCADO FINANCEIRO</H2> -->
-                <div class="game-details-container">
-                    <h1>Pontuação : <span id="player-score"></span> / 10</h1>
-                    <h1> Questões : <span id="question-number"></span> / 10</h1>
-                </div>
-    
-                <div class="game-question-container">
-                    <h1 id="display-question"></h1>
-                </div>
-    
-                <div class="game-options-container">
-                  
-                   <div class="modal-container" id="option-modal">
-                     
-                        <div class="modal-content-container">
-                             <h1>Escolha uma opção</h1>
-                          
-                             <div class="modal-button-container">
-                                <button onclick="closeOptionModal()">Continue</button>
-                            </div>
-                          
+                    <div class="modal-content-container">
+                      
+                        <h1>Parabéns, Quiz Completado.</h1>
+                      
+                        <div class="grade-details">
+                            <p>Tentativas : 10</p>
+                            <p>Respostas erradas : <span id="wrong-answers"></span></p>
+                            <p>Respostas certas : <span id="right-answers"></span></p>
+                            <p>Grau : <span id="grade-percentage"></span>%</p>
+                            <p ><span id="remarks"></span></p>
                         </div>
-                     
-                   </div>
-                  
-                    <span>
-                        <input type="radio" id="option-one" name="option" class="radio" value="optionA" />
-                        <label for="option-one" class="option" id="option-one-label"></label>
-                    </span>
-                  
-    
-                    <span>
-                        <input type="radio" id="option-two" name="option" class="radio" value="optionB" />
-                        <label for="option-two" class="option" id="option-two-label"></label>
-                    </span>
-                  
-    
-                    <span>
-                        <input type="radio" id="option-three" name="option" class="radio" value="optionC" />
-                        <label for="option-three" class="option" id="option-three-label"></label>
-                    </span>
-                  
-    
-                    <span>
-                        <input type="radio" id="option-four" name="option" class="radio" value="optionD" />
-                        <label for="option-four" class="option" id="option-four-label"></label>
-                    </span>
-    
-    
+                      
+                        <div class="modal-button-container">
+                            <button onclick="salvarSocore() ,closeScoreModal()">Continue</button>
+                        </div>
+                      
+                    </div>
                 </div>
-    
-                <div class="next-button-container">
-                    <button onclick="handleNextQuestion()">Próxima Questão</button>
+       
+                <div class="game-quiz-container">
+                    <!-- <H2>RESPONDA O QUIZ ABAIXO SOBRE MERCADO FINANCEIRO</H2> -->
+                    <div class="game-details-container">
+                        <h1>Pontuação : <span id="player-score"></span> / 10</h1>
+                        <h1> Questões : <span id="question-number"></span> / 10</h1>
+                    </div>
+        
+                    <div class="game-question-container">
+                        <h1 id="display-question"></h1>
+                    </div>
+        
+                    <div class="game-options-container">
+                      
+                       <div class="modal-container" id="option-modal">
+                         
+                            <div class="modal-content-container">
+                                 <h1>Escolha uma opção</h1>
+                              
+                                 <div class="modal-button-container">
+                                    <button onclick="closeOptionModal()">Continue</button>
+                                </div>
+                              
+                            </div>
+                         
+                       </div>
+                      
+                        <span>
+                            <input type="radio" id="option-one" name="option" class="radio" value="optionA" />
+                            <label for="option-one" class="option" id="option-one-label"></label>
+                        </span>
+                      
+        
+                        <span>
+                            <input type="radio" id="option-two" name="option" class="radio" value="optionB" />
+                            <label for="option-two" class="option" id="option-two-label"></label>
+                        </span>
+                      
+        
+                        <span>
+                            <input type="radio" id="option-three" name="option" class="radio" value="optionC" />
+                            <label for="option-three" class="option" id="option-three-label"></label>
+                        </span>
+                      
+        
+                        <span>
+                            <input type="radio" id="option-four" name="option" class="radio" value="optionD" />
+                            <label for="option-four" class="option" id="option-four-label"></label>
+                        </span>
+        
+        
+                    </div>
+        
+                    <div class="next-button-container">
+                        <button onclick="handleNextQuestion()">Próxima Questão</button>
+                    </div>
+        
                 </div>
-    
-            </div>
+            </main>
             <img class="vetor-2" src="../assets/img/Vector 8.svg" alt="">
-        </main>
+        </div>
 
         <!--Importar Firebase-->
         <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
