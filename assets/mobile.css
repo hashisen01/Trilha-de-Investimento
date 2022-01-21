@@ -80,7 +80,6 @@
     .div__mercado,
     .ul__mercado, 
     .conteudos, 
-    .conteudo-1, 
     .conteudos__nivel, .div__bonus, 
     .conteudos__bonus{
         display: block;
@@ -94,7 +93,7 @@
         background-color: #4A2597;
     }
 
-    .div__mercado, .conteudo-1 img{
+    .div__mercado{
         padding: 10px 0;
     }
 
@@ -104,6 +103,12 @@
 
     .div__blocos li{
         margin: 20px auto;
+    }
+
+    .conteudo-1{
+        width: 150px;
+        margin: 0 auto;
+        padding-top: 20px;
     }
 
     .ul-conteudo{
