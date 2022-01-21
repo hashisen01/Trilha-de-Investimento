@@ -1,3 +1,4 @@
+
 @import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@600;800;900&display=swap);
 
 body{
@@ -24,6 +25,7 @@ h2{
     width: 100%;
 	margin: 0 auto;
     max-width: 1420px;
+    margin: 0 auto;
 }
 
 .cabecalho{
@@ -267,16 +269,23 @@ hr{
     text-align: center;
     display: flex;
     justify-content: space-between;
-    padding: 0 50px;
+    padding: 100px 150px;
 }
 
 .conteudo-1{
     display: block;
+    width: 150px;
+    margin: 0 100px;
 }
 
 .conteudo-1 img{
     text-align: center;
-    padding: 0 10rem;
+    width: 170px;
+}
+
+
+.ul-conteudo{
+    margin: 0 auto;
 }
 
 .ul-conteudo li{
@@ -287,7 +296,7 @@ hr{
     box-sizing: border-box;
     border: none;
     border-radius: 234.5px 112px 234.5px 127px;
-    margin-top: 5rem;
+    
 }
 
 .ul-conteudo li p{
@@ -485,5 +494,3 @@ footer .sp_titulo{
     font-size: var(--texto-px);
     font-weight: 800;
 }
-
-
