@@ -48,6 +48,17 @@ main{
     background-position: center;
 }
 
+.titulo-quiz{
+    background: #7944AF; 
+    text-align: center; 
+    padding: 10px; 
+    position: absolute; 
+    width: 100%; 
+    max-width: 1940px; 
+    top: 60px; 
+    z-index: 1;
+}
+
 .game-quiz-container{
     width: 90%;
     height: 100%;
@@ -248,27 +259,48 @@ input[type=radio]:checked ~ .option {
 }
 
 @media(min-width : 300px) and (max-width : 350px){
+
     .container-master{
         padding: initial;
-     }
+    }
+
+    .titulo-quiz{
+        background: #7944AF; 
+        text-align: center; 
+        padding: 10px; 
+        position: absolute; 
+        width: 100%; 
+        max-width: 1940px; 
+        top: 60px; 
+        z-index: 1;
+    }
+
     .game-quiz-container{
         width: 100%;
-        height: 80vh;
+        height: 100vh;
      }
+
+     .game-details-container{
+         height: auto;
+     }
+
      .game-details-container h1{
-        font-size: 0.8rem;
+        font-size: 0.7rem;
+        margin-top: initial;
      }
  
      .game-question-container{
         height: 6rem;
+        margin: 10px auto;
      }
      .game-question-container h1{
        font-size: 0.9rem;
     }
  
-    .game-options-container span{
+    .game-options-container .option{
         width: 90%;
         height: 2.5rem;
+        margin: 20px auto;
     }
     .game-options-container span label{
         font-size: 0.8rem;
@@ -284,17 +316,28 @@ input[type=radio]:checked ~ .option {
 }
 
 @media(min-width : 350px) and (max-width : 700px){
+   .container-master{
+        padding: initial;
+   }
+
    .game-quiz-container{
        width: 90%;
-       height: 80vh;
+       height: 100vh;
        border-radius: 40px;
     }
+
+    .game-details-container{
+        height: auto;
+    }
+
     .game-details-container h1{
         font-size: 1rem;
+        margin-top: initial;
     }
 
     .game-question-container{
         height: 8rem;
+        margin: 20px auto;
     }
 
     .game-question-container h1{
@@ -303,13 +346,20 @@ input[type=radio]:checked ~ .option {
 
     .game-options-container span{
         width: 90%;
+        margin: 10px auto;
     }
     .modal-content-container{
         width: 90%;
         height: 25rem;
+        margin: 20px auto;
     }
     .modal-content-container h1{
         font-size: 1.2rem;
+    }
+
+    .next-button-container{
+        position: absolute;
+        bottom: 20px;
     }
 }
 
