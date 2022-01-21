@@ -1,4 +1,5 @@
 
+
 @import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap);
 
 body{
@@ -6,6 +7,15 @@ body{
     color: white;
     font-family: 'Montserrat';
     height: 600px;
+}
+
+.container-master{
+    max-width: 2440px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
 }
 
 .vetor-1{
@@ -27,9 +37,8 @@ main{
 
 .caixa{
     position: relative;
-    width: 1250px;
-    height: 620px;
-    margin: 15px auto;
+    height: 90vh;
+    margin: 0 40px;
     border: none;
     background: linear-gradient(180deg, #260253 0%, #7F49B6 94.78%);
     border-radius: 200px 80px 200px 80px;
@@ -72,5 +81,5 @@ main{
 .porfit{
     width: 350px;
     position: absolute;
-    bottom: -22px;
+    bottom: 0;
 }
