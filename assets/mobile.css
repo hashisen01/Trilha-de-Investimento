@@ -18,8 +18,8 @@
     }
 
     .logo__titulo h1 a{
-        align-items: center;
-        font-size: 26px;
+        padding-left: 15px;
+        font-size: 32px;
     }
 
     .container{
@@ -63,7 +63,7 @@
         display: block;
         width: 100%;
         position: absolute;
-        margin-top: 21rem;
+        margin-top: 22rem;
     }
 
     .div-quiz .lista-vamos-la a{
