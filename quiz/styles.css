@@ -4,11 +4,21 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+  
 body{
+    background: #431F8F;
     font-family: 'Montserrat', serif;
     color: white;
-    background: #431F8F;
+}
+
+.container-master{
+    max-width: 2440px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    padding: 40px;
 }
 
 .vetor-1{
@@ -16,6 +26,7 @@ body{
     width: 100%;
     top: 0;
     z-index: -1;
+    max-width: 2440px;
 }
 
 .vetor-2{
@@ -23,12 +34,14 @@ body{
     width: 100%;
     bottom: 0;
     z-index: -1;
+    max-width: 2440px;
 }
 
 main{
     width: 100%;
-    justify-content: center;
-    align-items: center;
+    height: 100%;
+    z-index: 0;
+    position: relative;
     /* background-color : black; */
     background-repeat: no-repeat;
     background-size: cover;
@@ -36,13 +49,15 @@ main{
 }
 
 .game-quiz-container{
-    width: 60rem;
-    height: 30rem;
+    width: 90%;
+    height: 100%;
     background: linear-gradient(180deg, #260253 0%, #7F49B6 94.78%);
-    border-radius: 200px 80px 200px 80px;
+    border-radius: 160px 80px 160px 80px;
     display: flex;
     flex-direction: column;
-    margin: 20px auto;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
 }
 
 .game-details-container{
@@ -78,12 +93,13 @@ main{
 }
 
 .game-options-container{
-    width: 100%;
+    width: 95%;
     height: 12rem;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
+    margin: 0 auto;
 }
 
 .game-options-container span{
@@ -264,11 +280,11 @@ input[type=radio]:checked ~ .option {
     }
 }
 
-
 @media(min-width : 350px) and (max-width : 700px){
    .game-quiz-container{
        width: 90%;
-       height: auto;
+       height: 80vh;
+       border-radius: 40px;
     }
     .game-details-container h1{
         font-size: 1rem;
@@ -276,7 +292,6 @@ input[type=radio]:checked ~ .option {
 
     .game-question-container{
         height: 8rem;
-        margin: 50px auto 20px auto;
     }
 
     .game-question-container h1{
@@ -285,7 +300,6 @@ input[type=radio]:checked ~ .option {
 
     .game-options-container span{
         width: 90%;
-        margin: 5px auto;
     }
     .modal-content-container{
         width: 90%;
@@ -294,15 +308,6 @@ input[type=radio]:checked ~ .option {
     .modal-content-container h1{
         font-size: 1.2rem;
     }
-
-    .next-button-container button{
-        margin-top: 50px;
-    }
-	
-    .game-details-container{
-        margin-top: 70px;
-    }
-
 }
 
 
