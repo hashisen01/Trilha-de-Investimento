@@ -265,7 +265,7 @@ input[type=radio]:checked ~ .option {
     }
 
     .titulo-quiz{
-        top: 50px; 
+        top: 20px; 
     }
 
     .game-quiz-container{
@@ -279,7 +279,7 @@ input[type=radio]:checked ~ .option {
 
      .game-details-container h1{
         font-size: 0.7rem;
-        margin-top: initial;
+        margin-top: 10px;
      }
  
      .game-question-container{
@@ -314,7 +314,7 @@ input[type=radio]:checked ~ .option {
    }
 
     .titulo-quiz{
-        top: 50px; 
+        top: 20px; 
     }
 
    .game-quiz-container{
@@ -329,7 +329,7 @@ input[type=radio]:checked ~ .option {
 
     .game-details-container h1{
         font-size: 1rem;
-        margin-top: initial;
+        margin-top: 10px;
     }
 
     .game-question-container{
