@@ -22,7 +22,8 @@ h2{
 
 .container{
     width: 100%;
-	margin: 0 auto;
+    margin: 0 auto;
+    max-width: 1420px;
 }
 
 .cabecalho{
