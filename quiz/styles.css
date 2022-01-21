@@ -248,6 +248,9 @@ input[type=radio]:checked ~ .option {
 }
 
 @media(min-width : 300px) and (max-width : 350px){
+    .container-master{
+        padding: initial;
+     }
     .game-quiz-container{
         width: 100%;
         height: 80vh;
