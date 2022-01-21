@@ -4,22 +4,27 @@
 	    padding: initial;
     }
 
+    .container-master{
+        height: 100vh;
+        padding-top: 20px;
+    }
+
     .caixa{
-    	width: 100%; 
-    	height: 100vh;
+    	width: 90%; 
+    	height: 90vh;
+        margin: 0 auto;
     }
 
 	.caixa div {
-	    width: 90%; 
+	    width: 90%;
+        margin: 0 auto;
 	}
 
 	.porfit{
-		display: none;
+
 	}
 
 	.btn-iniciar a{
 		position: initial;
 	}
-
-
 }
