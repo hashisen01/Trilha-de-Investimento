@@ -1,6 +1,7 @@
 @media (max-width:767px){
     *{
-        margin: 0px;
+        margin: initial;
+	    padding: initial;
     }
 
     .caixa{
